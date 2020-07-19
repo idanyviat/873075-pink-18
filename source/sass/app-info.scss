@@ -1,0 +1,117 @@
+@media (min-width: $mobile-width-only) {
+  .app-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 0;
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-repeat: no-repeat;
+
+    h1 {
+      color: white;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 24px;
+      font-family: 'Open Sans Light', Arial, sans-serif;
+      font-weight: 300;
+    }
+
+    p {
+      text-align: center;
+      color: white;
+      font-size: 14px;
+      font-family: 'Open Sans Light', Arial, sans-serif;
+      font-weight: 300;
+    }
+  }
+
+  .app-info__img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    background-color: #1d2631;
+  }
+
+  .app-info__a {
+    display: inline-block;
+    border: 3px solid white;
+    margin-top: 28px;
+    border-radius: 35px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans Bold', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .app-info__platform {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 38px;
+    width: 280px;
+    justify-content: space-around;
+
+    img {
+      justify-content: center;
+    }
+  }
+
+  .app-info__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h2 {
+      margin-top: 47px;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin-top: 41px;
+    }
+
+    h2, h3 {
+      text-align: center;
+      font-family: 'Open Sans Light', Arial, sans-serif;
+      font-size: 24px;
+      color: #364351;
+    }
+
+    h4 {
+      font-family: 'Open Sans', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: 'Open Sans', Arial, sans-serif;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  }
+
+  .app-info__other {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f2f2f2;
+
+    img {
+      margin-left: 24%;
+      margin-right: 20%;
+    }
+  }
+}
+
+
+
+@media (min-width: $tablet-width){}
+@media (min-width: $desktop-width) {}
